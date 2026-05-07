@@ -3,7 +3,8 @@ name: Build and Release APK
 on:
   push:
     tags:
-      - 'v*' # Triggers only when you push a tag like v1.0.1
+      -git tag v1.0.0
+      -git push origin v1.0.0 # Triggers only when you push a tag like v1.0.1
   workflow_dispatch: # Allows you to trigger it manually
 
 jobs:
