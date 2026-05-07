@@ -42,7 +42,7 @@ export default function App() {
             </div>
             <div>
               <h2 className="font-semibold text-lg">Files Generated</h2>
-              <p className="text-neutral-500 text-sm">Target path: <code className="bg-neutral-100 px-1 py-0.5 rounded">/flutter_app</code></p>
+              <p className="text-neutral-500 text-sm">Target path: <code className="bg-neutral-100 px-1 py-0.5 rounded">/root</code></p>
             </div>
           </div>
         </motion.div>
@@ -87,7 +87,7 @@ export default function App() {
               </p>
               
               <div className="bg-neutral-900 text-neutral-200 rounded-xl p-5 font-mono text-sm leading-relaxed overflow-x-auto">
-                <div className="text-blue-400 mb-1">/flutter_app</div>
+                <div className="text-blue-400 mb-1">/ (Root)</div>
                 <div className="pl-4 border-l border-neutral-700 ml-2">
                   <div className="flex items-center gap-2 py-1"><PackageOpen size={14} className="text-neutral-400"/> pubspec.yaml <span className="text-neutral-500 text-xs ml-2">// Dependencies (just_audio, etc.)</span></div>
                   <div className="flex gap-2 py-1"><FolderTree size={14} className="text-yellow-500 mt-0.5"/> lib/</div>
@@ -117,12 +117,12 @@ export default function App() {
                 <li className="pl-6">
                   <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-4 ring-white text-blue-600 text-xs font-bold">1</span>
                   <h4 className="font-semibold text-neutral-900">Export as ZIP</h4>
-                  <p className="text-neutral-600 mt-1 text-sm">Navigate to the settings menu in Google AI Studio and select <strong>"Download as ZIP"</strong> or use your IDE to copy the <code>/flutter_app</code> folder.</p>
+                  <p className="text-neutral-600 mt-1 text-sm">Navigate to the settings menu in Google AI Studio and select <strong>"Download as ZIP"</strong> to get your code.</p>
                 </li>
                 <li className="pl-6">
                   <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-4 ring-white text-blue-600 text-xs font-bold">2</span>
-                  <h4 className="font-semibold text-neutral-900">Extract the Flutter setup</h4>
-                  <p className="text-neutral-600 mt-1 text-sm">Move the contents of the <code>/flutter_app</code> directory out to the root of your local workspace.</p>
+                  <h4 className="font-semibold text-neutral-900">Open in VS Code / Android Studio</h4>
+                  <p className="text-neutral-600 mt-1 text-sm">Since files are already at the root, you can open the extracted folder directly with your IDE.</p>
                 </li>
                 <li className="pl-6">
                   <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-4 ring-white text-blue-600 text-xs font-bold">3</span>
@@ -150,7 +150,7 @@ export default function App() {
               <div className="space-y-4">
                 <div className="border border-neutral-200 rounded-xl p-4">
                   <h4 className="font-medium text-neutral-900 mb-2">1. Export to GitHub</h4>
-                  <p className="text-sm text-neutral-600">Use the Google AI Studio <strong>Export to GitHub</strong> feature. Make sure to set the <code>/flutter_app</code> contents as your root in the resulting repository.</p>
+                  <p className="text-sm text-neutral-600">Use the Google AI Studio <strong>Export to GitHub</strong> feature. The repository will be ready to build immediately.</p>
                 </div>
                 
                 <div className="border border-neutral-200 rounded-xl p-4">
