@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:just_audio/package:just_audio.dart';
-import 'package:file_picker/package:file_picker.dart';
+import 'package:just_audio/just_audio.dart';
+import 'package:file_picker/file_picker.dart';
 // import 'package:ffmpeg_kit_flutter/ffmpeg_kit.dart';
 // import 'package:ffmpeg_kit_flutter/return_code.dart';
 

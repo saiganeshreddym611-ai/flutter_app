@@ -95,6 +95,10 @@ export default function App() {
                     <div className="text-blue-300 py-1">main.dart <span className="text-neutral-500 text-xs ml-2">// App UI & Initialization</span></div>
                     <div className="text-blue-300 py-1">audio_manager.dart <span className="text-neutral-500 text-xs ml-2">// Phrase looping & audio state</span></div>
                   </div>
+                  <div className="flex gap-2 py-1"><FolderTree size={14} className="text-green-500 mt-0.5"/> android/</div>
+                  <div className="pl-6 border-l border-neutral-700 ml-1 text-neutral-400 text-xs italic">
+                    build.gradle, settings.gradle, app folder...
+                  </div>
                   <div className="flex gap-2 py-1"><FolderTree size={14} className="text-neutral-400 mt-0.5"/> .github/</div>
                   <div className="pl-6 border-l border-neutral-700 ml-1">
                     <div className="text-blue-300 py-1">workflows/release.yml <span className="text-neutral-500 text-xs ml-2">// CI/CD APK packager</span></div>
